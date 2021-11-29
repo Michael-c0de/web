@@ -1,0 +1,85 @@
+.container{
+    min-height: calc(100vh - 50px); 
+    display: flex;
+    align-items: stretch;
+    
+   
+   
+   
+    
+}
+.footer {
+    height:50px;
+    text-align: center;
+    background:black;
+    color:gainsboro;
+    line-height: 50px;
+   
+}
+.aside{
+    background:#454545;
+    color:#ccc;
+    width:30%;
+    height:100%;
+    min-height: calc(100vh - 50px);
+    
+    
+    
+   
+}
+.aside>*{
+    margin:20px 30%;
+}
+.aside .header .logo{
+    font-size: 30px;
+    color:#ccc;
+    text-align: center;
+}
+.aside .nav a,
+.aside .keywords a {
+    color:#ccc;
+    display: block;
+}
+.aside .nav a:hover,
+.aside .keywords a:hover{
+    background: black;
+}
+.aside>* {
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.main{
+    background:#ccc;
+    color:#454545;
+    width:70%;
+    min-height: calc(100vh - 50px);
+    
+    
+    
+}
+.ariticle-title>* {
+    color:#bbb;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.item>*{
+    margin-bottom: 15px;
+}
+.status
+{
+    color:grey;
+}
+.ariticle{
+    color:#eee;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+
+.main>*{
+    margin:5px auto;
+    width:80%;
+    background:#454545;
+    color:#ccc;
+}
